@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+    <head>
+        <Title>This is how you style tables</Title>
+        
+        <style type="text/css">
+            
+            table{
+                border: 3px solid orange;
+            }
+            
+            tr{
+                background-color: black;
+                color: white;
+            }
+            
+            td{
+                border: 2px solid orange;
+            }
+            
+            /* Overriding an inherited style --- inhereted from the tr style */
+            th{
+                color: yellow;
+            }
+            
+            ul{
+                list-style-type: armenian;
+                /* list-style-image: url(image.png); - This allows you to use pictures for bullets */
+                /*
+                list-style-type: none; - makes no bullets presents. But the padding needs to be ajusted
+                padding: 0px; - fixes the padding to put the items snug aganst the side of the browser.
+                */
+            }
+            
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Dogs</th>
+            </tr>
+            
+            <tr>
+                <td>Scott</td>
+                <td>Rochester</td>
+                <td>0</td>
+            </tr>
+            
+            <tr>
+                <td>Ryan</td>
+                <td>Poland</td>
+                <td>2</td>
+            </tr>
+        
+        </table>
+        
+        <ul>
+            <li>Scott</li>
+            <li>Ryan</li>
+        </ul>
+    
+    </body>
+    
+</html>

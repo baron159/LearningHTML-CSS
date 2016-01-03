@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+    <head>
+        <Title>Div Tags</Title>
+        
+        <style>
+        
+            #idTagging{
+                border: 2px solid red;
+                position: absolute;
+                width: 450px;
+                top: 225px;
+                left: 45px;
+            }
+            
+            .s1{
+                color: blue;
+                font-family: fantasy;
+                border: 2px solid black;
+            }
+            
+            .s2{
+                color: green;
+                border: 5px solid yellow;
+            }
+            
+            /* This is styling one link inside of paragraph tags */
+            p > a{
+                color: red;
+            }
+            
+            /* Pseudo Element */
+            p:first-letter {
+                font-size: 30px;
+                color: brown;
+            }
+            
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div id="idTagging">This is a div tagged element</div>
+        <p class="s1">This is section One!</p>
+        <p class="s2">This is section Two!</p>
+        <p>This <a href="http://google.com">link</a> will be modified</p>
+        But this <a href="http://google.com">one</a> will not be modified
+    
+    </body>
+    
+</html>
