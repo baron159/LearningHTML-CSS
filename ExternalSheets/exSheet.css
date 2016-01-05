@@ -19,3 +19,9 @@ a:hover{
     background-color: black;
     font-family: cursive;
 }
+
+/*
+Fixed postion creates something that will be fixed even when scrolling
+Relative postion moves the object based on it's original postion
+Absoulute postion moves an object to a specific postion without caring what's around it
+*/

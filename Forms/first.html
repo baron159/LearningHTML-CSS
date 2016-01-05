@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+    <head>
+        <Title>Intro to forms</Title>
+    
+    </head>
+    
+    <body>
+        <form action="" method="post">
+            Username: <input type="text" name="username" maxlength="10" /> <br/>
+            Password: <input type="password" name="passwrd" maxlength="15" /> <br/>
+            Male: <input type="radio" name="sex" value="male" /> <br/>
+            Female: <input type="radio" name="sex" value="female" /> <br/>
+            
+            Black: <input type="checkbox" name="colors" value="black" />
+            White: <input type="checkbox" name="colors" value="white" />
+            Green: <input type="checkbox" name="colors" value="green" /><br/>
+            <select name="col">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+            </select><br/>
+            <textarea name="bio" rows="6" cols="40">
+            
+            </textarea>
+            Uploading a file:<br/>
+            <input type="file" name="baronUplink" />
+            <input type="submit" value="Submit!" />
+        </form>
+    </body>
+    
+</html>
